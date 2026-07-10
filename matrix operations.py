@@ -1,0 +1,11 @@
+import numpy as np
+A=np.array([[2,4],[6,8]])
+B=np.array([[1,2],[3,4]])
+print("Addition:")
+print(A+B)
+print("Subtraction:")
+print(A-B)
+print("Multiplication:")
+print(np.matmul(A,B))
+print("Division:")
+print(A/B)
